@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+style="@style/custom"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginLeft="@dimen/margin_layout1"
+android:layout_marginRight="@dimen/margin_layout2"
+android:orientation="vertical"
+tools:context="com.example.android.singleappscreen.MainActivity">
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:scaleType="fitXY"
+    android:src="@drawable/logo"/>
+
+<TextView
+    android:id="@+id/business_description"
+    style="@style/accroche"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginBottom="@dimen/marginBottom"
+    android:layout_marginTop="@dimen/marginTop"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="@string/business_description"/>
+
+<TextView
+    android:id="@+id/text2"
+    style="@style/custom1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="@dimen/text2"
+    android:layout_weight="1"
+    android:text="@string/text2"/>
+
+<TextView
+    android:id="@+id/text3"
+    style="@style/custom1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="@dimen/text3"
+    android:layout_weight="1"
+    android:text="@string/text3"/>
+
+<TextView
+    android:id="@+id/text4"
+    style="@style/custom1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="@dimen/text4"
+    android:layout_weight="1"
+    android:text="@string/text4"/>
+
+<ImageView
+    android:id="@+id/Photo"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:scaleType="fitCenter"
+    android:src="@drawable/designer"/>
+
+<TextView
+    android:id="@+id/Fin_text5"
+    style="@style/custom2"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Fin_text5"
+    android:alpha="0.8"
+    android:gravity="center"
+    android:text="@string/Fin_text5"/>
+
+<TextView
+    android:id="@+id/Fin_text6"
+    style="@style/custom3"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/Fin_text6"
+    android:alpha="0.8"
+    android:gravity="center"
+    android:text="@string/Fin_text6"/>
+</LinearLayout>
